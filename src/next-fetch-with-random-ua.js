@@ -4,7 +4,7 @@
   var nxDeepAssign = nx.deepAssign || require('@feizheng/next-deep-assign');
   var nxRandomUa = nx.randomUa || require('@feizheng/next-random-ua');
   var DEFAULT_OPTIONS = {
-    headers: { 'User-Agent': nxRandomUa }
+    headers: { 'User-Agent': nxRandomUa() }
   };
 
   nx.fetchWithRandomUa = function (inFetch) {

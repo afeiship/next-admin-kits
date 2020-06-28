@@ -2,8 +2,8 @@
  * name: @feizheng/next-fetch-with-random-ua
  * description: Random user-agent for fetch.
  * homepage: https://github.com/afeiship/next-fetch-with-random-ua
- * version: 1.0.0
- * date: 2020-06-28T00:53:13.449Z
+ * version: 1.0.1
+ * date: 2020-06-28T00:54:35.877Z
  * license: MIT
  */
 
@@ -13,7 +13,7 @@
   var nxDeepAssign = nx.deepAssign || require('@feizheng/next-deep-assign');
   var nxRandomUa = nx.randomUa || require('@feizheng/next-random-ua');
   var DEFAULT_OPTIONS = {
-    headers: { 'User-Agent': nxRandomUa }
+    headers: { 'User-Agent': nxRandomUa() }
   };
 
   nx.fetchWithRandomUa = function (inFetch) {
