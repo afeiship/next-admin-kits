@@ -2,8 +2,8 @@
  * name: @feizheng/next-fetch-with-random-ua
  * description: Random user-agent for fetch.
  * homepage: https://github.com/afeiship/next-fetch-with-random-ua
- * version: 1.0.1
- * date: 2020-06-28T00:54:35.877Z
+ * version: 1.0.2
+ * date: 2020-06-30T06:33:23.956Z
  * license: MIT
  */
 

@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-fetch-with-random-ua",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Random user-agent for fetch.",
   "homepage": "https://github.com/afeiship/next-fetch-with-random-ua",
   "author": {
@@ -28,14 +28,14 @@
     "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
-    "jest": "^26.0.1",
+    "jest": "^26.1.0",
     "prettier": "^2.0.5",
     "uglify-save-license": "^0.4.1",
-    "uglify-js": "3.9.4",
+    "uglify-js": "3.10.0",
     "yargs": "^15.3.1"
   },
   "dependencies": {
-    "@feizheng/next-deep-assign": "^1.1.4",
+    "@feizheng/next-deep-assign": "^1.2.0",
     "@feizheng/next-js-core2": "^2.5.0",
     "@feizheng/next-random-ua": "^1.0.0"
   },
