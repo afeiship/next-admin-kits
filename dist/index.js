@@ -3,7 +3,7 @@
  * description: Random user-agent for fetch.
  * homepage: https://github.com/afeiship/next-fetch-with-random-ua
  * version: 1.0.0
- * date: 2020-11-20 22:23:29
+ * date: 2020-11-20 22:32:59
  * license: MIT
  */
 
