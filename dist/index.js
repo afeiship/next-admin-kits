@@ -1,17 +1,17 @@
 /*!
- * name: @feizheng/next-fetch-with-random-ua
+ * name: @jswork/next-fetch-with-random-ua
  * description: Random user-agent for fetch.
  * homepage: https://github.com/afeiship/next-fetch-with-random-ua
- * version: 1.0.2
- * date: 2020-06-30T06:33:23.956Z
+ * version: 1.0.0
+ * date: 2020-11-20 22:23:29
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
-  var nxDeepAssign = nx.deepAssign || require('@feizheng/next-deep-assign');
-  var nxRandomUa = nx.randomUa || require('@feizheng/next-random-ua');
+  var nx = global.nx || require('@jswork/next');
+  var nxDeepAssign = nx.deepAssign || require('@jswork/next-deep-assign');
+  var nxRandomUa = nx.randomUa || require('@jswork/next-random-ua');
   var DEFAULT_OPTIONS = {
     headers: { 'User-Agent': nxRandomUa() }
   };
@@ -27,5 +27,3 @@
     module.exports = nx.fetchWithRandomUa;
   }
 })();
-
-//# sourceMappingURL=next-fetch-with-random-ua.js.map
