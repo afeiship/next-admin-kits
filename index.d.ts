@@ -1,3 +1,9 @@
+interface Options {
+  prefix?: string;
+}
+
 interface NxStatic {
-  AdminKits: any;
+  AdminKits: {
+    create: (opts: Options) => any;
+  };
 }
