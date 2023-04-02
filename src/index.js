@@ -1,20 +1,32 @@
-(function () {
-  var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@jswork/next');
-  var nxDeepAssign = nx.deepAssign || require('@jswork/next-deep-assign');
-  var nxRandomUa = nx.randomUa || require('@jswork/next-random-ua');
-  var defaults = { rua: false };
+import nx from '@jswork/next';
+import EventMitt from '@jswork/event-mitt';
 
-  nx.fetchWithRandomUa = function (inFetch) {
-    return function (inUrl, inOptions) {
-      var options = nx.mix(null, defaults, inOptions);
-      var randomUa = { headers: { 'User-Agent': nxRandomUa() } };
-      options.rua && (options = nxDeepAssign(randomUa, options));
-      return inFetch(inUrl, options);
-    };
-  };
+// classes
+import '@jswork/next-local-storage';
 
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = nx.fetchWithRandomUa;
+// packages
+import '@jswork/next-ant-column';
+import '@jswork/next-key-map';
+import '@jswork/next-sets';
+
+const defaults = { localPrefix: 'nak' };
+
+const NxAdminKits = nx.declare('nx.AdminKits', {
+  methods: {
+    init: function (inOptions) {
+      this.options = nx.mix(null, defaults, inOptions);
+    },
+    initLocal: function () {
+      nx.sets({ $local: new nx.LocalStorage('mba') });
+    },
+    initEvent: function () {
+      nx.sets({ $event: nx.mix(null, EventMitt) });
+    }
   }
-})();
+});
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = NxAdminKits;
+}
+
+export default NxAdminKits;

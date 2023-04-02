@@ -1,11 +1,9 @@
-(function () {
-  require('../src');
+require('../src/index.pack');
 
-  describe('api.basic test', () => {
-    test('nx.fetchWithRandomUa', function () {
-      const obj1 = { name: 'fei' };
-      const obj2 = { email: '1290657123@qq.com' };
-      const result = {};
-    });
+jest.setTimeout(60 * 1000);
+
+describe('api.basic test', () => {
+  test('nx.boilerplatePackage', function () {
+    console.log('hello next');
   });
-})();
+});
