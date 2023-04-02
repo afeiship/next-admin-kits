@@ -12,9 +12,16 @@ import '@jswork/next-sets';
 const defaults = { localPrefix: 'nak' };
 
 const NxAdminKits = nx.declare('nx.AdminKits', {
+  statics: {
+    create: function (inOptions) {
+      return new this(inOptions);
+    }
+  },
   methods: {
     init: function (inOptions) {
       this.options = nx.mix(null, defaults, inOptions);
+      this.initLocal();
+      this.initEvent();
     },
     initLocal: function () {
       nx.sets({ $local: new nx.LocalStorage('mba') });
