@@ -9,7 +9,7 @@ import '@jswork/next-ant-column';
 import '@jswork/next-key-map';
 import '@jswork/next-sets';
 
-const defaults = { localPrefix: 'nak' };
+const defaults = { prefix: 'nak' };
 
 const NxAdminKits = nx.declare('nx.AdminKits', {
   statics: {
@@ -24,7 +24,8 @@ const NxAdminKits = nx.declare('nx.AdminKits', {
       this.initEvent();
     },
     initLocal: function () {
-      nx.sets({ $local: new nx.LocalStorage('mba') });
+      const { prefix } = this.options;
+      nx.sets({ $local: new nx.LocalStorage(prefix) });
     },
     initEvent: function () {
       nx.sets({ $event: nx.mix(null, EventMitt) });
