@@ -16,7 +16,7 @@ yarn add @jswork/next-admin-kits
 import '@jswork/next-admin-kits';
 
 // init admin kits:
-nx.AdminKits.create({ localPrefix: 'nak' });
+nx.AdminKits.create({ prefix: 'nak' });
 ```
 
 ## license
