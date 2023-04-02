@@ -1,4 +1,4 @@
-require('../src/index.pack');
+require('../src');
 
 jest.setTimeout(60 * 1000);
 
