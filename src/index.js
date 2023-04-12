@@ -8,6 +8,7 @@ import '@jswork/next-local-storage';
 import '@jswork/next-ant-column';
 import '@jswork/next-key-map';
 import '@jswork/next-sets';
+import '@jswork/next-compact-object';
 
 const defaults = { prefix: 'nak' };
 
