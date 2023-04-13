@@ -9,6 +9,8 @@ import '@jswork/next-ant-column';
 import '@jswork/next-key-map';
 import '@jswork/next-sets';
 import '@jswork/next-compact-object';
+import '@jswork/next-deep-each';
+import '@jswork/next-deep-assign';
 
 const defaults = { prefix: 'nak' };
 
