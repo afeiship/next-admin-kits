@@ -48,7 +48,7 @@
     "@jswork/event-mitt": "^1.0.3",
     "@jswork/next-ant-column": "^1.0.5",
     "@jswork/next-capitalize": "^1.0.1",
-    "@jswork/next-classify": "^1.0.1",
+    "@jswork/next-classify": "^1.0.2",
     "@jswork/next-compact-object": "^1.0.3",
     "@jswork/next-deep-assign": "^1.0.3",
     "@jswork/next-deep-clone": "^1.0.2",
