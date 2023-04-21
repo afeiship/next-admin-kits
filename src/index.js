@@ -21,6 +21,7 @@ import "@jswork/next-key-map"
 import "@jswork/next-param"
 import "@jswork/next-qs"
 import "@jswork/next-sets"
+import "@jswork/next-json"
 
 const defaults = { prefix: 'nak' };
 
