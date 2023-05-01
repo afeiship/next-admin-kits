@@ -23,6 +23,7 @@ import '@jswork/next-param';
 import '@jswork/next-qs';
 import '@jswork/next-sets';
 import '@jswork/next-json';
+import '@jswork/next-to-clipboard';
 
 const defaults = { prefix: 'nak' };
 
