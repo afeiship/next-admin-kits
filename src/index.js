@@ -6,6 +6,7 @@ import '@jswork/next-local-storage';
 
 // packages
 import '@jswork/next-ant-column';
+import '@jswork/next-camelize';
 import '@jswork/next-capitalize';
 import '@jswork/next-classify';
 import '@jswork/next-camelize';
