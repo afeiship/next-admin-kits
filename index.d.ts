@@ -1,9 +1,9 @@
-interface Options {
+interface NxAdminKitsOptions {
   prefix?: string;
 }
 
 interface NxStatic {
   AdminKits: {
-    create: (opts: Options) => any;
+    create: (opts: NxAdminKitsOptions) => any;
   };
 }
