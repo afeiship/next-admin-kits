@@ -3,6 +3,7 @@ import EventMitt from '@jswork/event-mitt';
 
 // classes
 import '@jswork/next-local-storage';
+import '@jswork/next-session-storage';
 
 // packages
 import '@jswork/next-ant-column';
@@ -44,6 +45,7 @@ const NxAdminKits = nx.declare('nx.AdminKits', {
     initLocal: function () {
       const { prefix } = this.options;
       nx.sets({ $local: new nx.LocalStorage(prefix) });
+      nx.sets({ $session: new nx.SessionStorage(prefix) });
     },
     initEvent: function () {
       nx.sets({ $event: nx.mix(null, EventMitt) });
