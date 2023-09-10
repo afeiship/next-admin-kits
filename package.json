@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-admin-kits",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "Next kits for admin sysytem.",
   "homepage": "https://js.work",
   "author": {
@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@jswork/event-mitt": "^1.0.10",
-    "@jswork/next-ant-column": "^1.0.5",
+    "@jswork/next-ant-column": "^1.1.1",
     "@jswork/next-camelize": "^1.0.3",
     "@jswork/next-capitalize": "^1.0.2",
     "@jswork/next-classify": "^1.0.5",
