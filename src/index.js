@@ -4,6 +4,7 @@ import EventMitt from '@jswork/event-mitt';
 // classes
 import '@jswork/next-local-storage';
 import '@jswork/next-session-storage';
+import '@jswork/next-json2base64';
 
 // packages
 import '@jswork/next-ant-column';
