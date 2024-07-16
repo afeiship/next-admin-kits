@@ -19,7 +19,7 @@
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
-    "@jswork/gulp-pkg-header": "^1.0.8",
+    "@jswork/gulp-pkg-header": "^1.0.11",
     "@jswork/gulp-registry": "^1.0.45",
     "@jswork/next": "^1.2.2",
     "del": "^6.0.0",
@@ -45,7 +45,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@jswork/event-mitt": "^1.0.13",
+    "@jswork/event-mitt": "^1.0.14",
     "@jswork/next-ant-column": "^1.1.4",
     "@jswork/next-camelize": "^1.0.3",
     "@jswork/next-capitalize": "^1.0.2",
@@ -58,6 +58,7 @@
     "@jswork/next-dom-event": "^1.0.7",
     "@jswork/next-empty": "^1.0.2",
     "@jswork/next-get2get": "^1.0.8",
+    "@jswork/next-guid": "^1.0.1",
     "@jswork/next-is-empty-object": "^1.0.4",
     "@jswork/next-is-plain-object": "^1.0.4",
     "@jswork/next-json": "^1.0.6",

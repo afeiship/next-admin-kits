@@ -29,6 +29,7 @@ import '@jswork/next-qs';
 import '@jswork/next-sets';
 import '@jswork/next-json';
 import '@jswork/next-to-clipboard';
+import '@jswork/next-guid';
 
 const defaults = { prefix: 'nak' };
 
