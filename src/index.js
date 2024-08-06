@@ -24,7 +24,7 @@ import '@jswork/next-is-empty-object';
 import '@jswork/next-is-plain-object';
 import '@jswork/next-kebab-case';
 import '@jswork/next-key-map';
-import '@jswork/next-param';
+// import '@jswork/next-param';
 import '@jswork/next-qs';
 import '@jswork/next-sets';
 import '@jswork/next-json';
