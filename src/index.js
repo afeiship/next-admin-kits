@@ -9,9 +9,9 @@ import '@jswork/next-dom-event';
 
 // packages
 import '@jswork/next-ant-column';
-import '@jswork/next-camelize';
 import '@jswork/next-capitalize';
 import '@jswork/next-classify';
+import '@jswork/next-camelize';
 import '@jswork/next-compact-object';
 import '@jswork/next-deep-assign';
 import '@jswork/next-deep-clone';
@@ -23,7 +23,7 @@ import '@jswork/next-is-empty-object';
 import '@jswork/next-is-plain-object';
 import '@jswork/next-kebab-case';
 import '@jswork/next-key-map';
-// import '@jswork/next-param';
+import '@jswork/next-param';
 import '@jswork/next-qs';
 import '@jswork/next-sets';
 import '@jswork/next-json';
