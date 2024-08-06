@@ -12,7 +12,6 @@ import '@jswork/next-ant-column';
 import '@jswork/next-camelize';
 import '@jswork/next-capitalize';
 import '@jswork/next-classify';
-import '@jswork/next-camelize';
 import '@jswork/next-compact-object';
 import '@jswork/next-deep-assign';
 import '@jswork/next-deep-clone';
