@@ -30,6 +30,9 @@ import '@jswork/next-json';
 import '@jswork/next-to-clipboard';
 import '@jswork/next-guid';
 
+// next class
+import '@jswork/next-rc-components';
+
 const defaults = { prefix: 'nak' };
 
 const NxAdminKits = nx.declare('nx.AdminKits', {
