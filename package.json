@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-admin-kits",
-  "version": "1.0.37",
+  "version": "1.0.38",
   "description": "Next kits for admin sysytem.",
   "homepage": "https://js.work",
   "author": {
@@ -21,7 +21,7 @@
     "@babel/preset-env": "^7.20.2",
     "@jswork/gulp-pkg-header": "^1.0.11",
     "@jswork/gulp-registry": "^1.0.45",
-    "@jswork/next": "^1.2.2",
+    "@jswork/next": "^1.2.11",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
@@ -45,17 +45,17 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@jswork/event-mitt": "^1.0.14",
+    "@jswork/event-mitt": "^2.0.16",
     "@jswork/next-ant-column": "^1.1.4",
     "@jswork/next-camelize": "^1.0.3",
     "@jswork/next-capitalize": "^1.0.2",
     "@jswork/next-classify": "^1.0.5",
-    "@jswork/next-compact-object": "^1.0.5",
+    "@jswork/next-compact-object": "^1.0.6",
     "@jswork/next-deep-assign": "^1.0.4",
     "@jswork/next-deep-clone": "^1.0.3",
-    "@jswork/next-deep-each": "^1.0.4",
+    "@jswork/next-deep-each": "^1.0.5",
     "@jswork/next-deep-equal": "^1.0.4",
-    "@jswork/next-dom-event": "^1.0.7",
+    "@jswork/next-dom-event": "^1.0.8",
     "@jswork/next-empty": "^1.0.2",
     "@jswork/next-get2get": "^1.0.8",
     "@jswork/next-guid": "^1.0.2",
@@ -68,7 +68,7 @@
     "@jswork/next-local-storage": "^1.0.10",
     "@jswork/next-param": "^1.0.12",
     "@jswork/next-qs": "^1.0.9",
-    "@jswork/next-rc-components": "^1.0.10",
+    "@jswork/next-rc-components": "^1.0.14",
     "@jswork/next-session-storage": "^1.0.10",
     "@jswork/next-sets": "^1.0.5",
     "@jswork/next-to-clipboard": "^1.0.3"
