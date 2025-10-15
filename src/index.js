@@ -33,7 +33,7 @@ import '@jswork/next-create-fetcher';
 
 const defaults = { prefix: 'nak' };
 
-const NxAdminKits = nx.declare('nx.AdminKits', {
+const NxAdminKits = nx.define('nx.AdminKits', {
   statics: {
     create: function (inOptions) {
       return new this(inOptions);
