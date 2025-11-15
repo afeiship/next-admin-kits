@@ -71,8 +71,7 @@
     "@jswork/next-qs": "^1.0.9",
     "@jswork/next-session-storage": "^1.0.12",
     "@jswork/next-sets": "^1.0.5",
-    "@jswork/next-to-clipboard": "^1.0.3",
-    "@jswork/next-url-literal": "^1.0.1"
+    "@jswork/next-to-clipboard": "^1.0.3"
   },
   "keywords": [
     "next",

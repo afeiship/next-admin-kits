@@ -1,5 +1,6 @@
 import nx from '@jswork/next';
 import EventMitt from '@jswork/event-mitt';
+import urlLiteral from '@jswork/url-literal';
 
 // classes
 import '@jswork/next-local-storage';
@@ -30,7 +31,6 @@ import '@jswork/next-json';
 import '@jswork/next-to-clipboard';
 import '@jswork/next-guid';
 import '@jswork/next-create-fetcher';
-import '@jswork/next-url-literal';
 
 const defaults = { prefix: 'nak' };
 
@@ -50,7 +50,7 @@ const NxAdminKits = nx.define('nx.AdminKits', {
       const { prefix } = this.options;
       nx.sets({ $local: new nx.LocalStorage(prefix) });
       nx.sets({ $session: new nx.SessionStorage(prefix) });
-      nx.sets({ $url: nx.urlLiteral });
+      nx.sets({ $url: urlLiteral });
     },
     initEvent: function () {
       nx.sets({ $event: nx.mix(null, EventMitt) });
