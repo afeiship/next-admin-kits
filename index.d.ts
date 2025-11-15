@@ -10,4 +10,5 @@ interface NxStatic {
   $local: import('@jswork/next-local-storage');
   $session: import('@jswork/next-session-storage');
   $event: import('@jswork/event-mitt').EventMitt;
+  $url: import('@jswork/next-url-literal');
 }
